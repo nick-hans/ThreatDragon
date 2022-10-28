@@ -33,7 +33,9 @@
                   "modelType": "STRIDE",
                   "type": "Information disclosure",
                   "title": "DDos",
-                  "threatId": "492f66fd-2c26-43f3-8440-c965352a2822"
+                  "threatId": "492f66fd-2c26-43f3-8440-c965352a2822",
+                  "description": "Lahmlegung der Dienste",
+                  "mitigation": "DDos Protection System"
                 }
               ],
               "attrs": {
@@ -70,7 +72,8 @@
                   "title": "DDos auf den Authentifizierungsdienst",
                   "type": "Denial of service",
                   "description": "Keine Möglichkeit der Authentifizierung",
-                  "threatId": "9e70b0c8-b014-4c5c-b0e0-79e1bccd86d4"
+                  "threatId": "9e70b0c8-b014-4c5c-b0e0-79e1bccd86d4",
+                  "mitigation": "DDos Protection System"
                 }
               ],
               "attrs": {
@@ -258,7 +261,8 @@
                   "type": "Denial of service",
                   "description": "Kein Zugriff auf den Telefonanbieter, da der Service nicht läuft",
                   "title": "DDos Angriff auf Telefonanbieter",
-                  "threatId": "e20eeb97-9bc4-4cd1-af9d-44b6080d7981"
+                  "threatId": "e20eeb97-9bc4-4cd1-af9d-44b6080d7981",
+                  "mitigation": "DDos Protection System"
                 }
               ],
               "attrs": {
@@ -297,7 +301,9 @@
                   "modelType": "STRIDE",
                   "type": "Information disclosure",
                   "title": "Weiterleitung falscher Daten",
-                  "threatId": "a141dab9-676e-48ae-b1db-2ae85cca208a"
+                  "threatId": "a141dab9-676e-48ae-b1db-2ae85cca208a",
+                  "description": "Die Datenbank leitet durch SQL-Injections/falscher Konfiguration falsche Daten weiter",
+                  "mitigation": "Secure and correct Coding\nrespect data guidelines"
                 }
               ],
               "attrs": {
@@ -417,7 +423,8 @@
                   "type": "Denial of service",
                   "description": "DDos Angriff und lahmlegen des Services",
                   "title": "DDos Angriff",
-                  "threatId": "8f22ed53-62ed-4d97-a645-244e52b2ae4f"
+                  "threatId": "8f22ed53-62ed-4d97-a645-244e52b2ae4f",
+                  "mitigation": "DDos Protection System"
                 }
               ],
               "attrs": {
@@ -1076,7 +1083,8 @@
                   "type": "Repudiation",
                   "title": "Nicht alles geloggt",
                   "description": "Nicht alles kann vernünftig geloggt werden und man kann bestimmte Aktionen nicht rückverfolgen",
-                  "threatId": "fa2effaa-801a-4b6e-afc4-5b3926c7525d"
+                  "threatId": "fa2effaa-801a-4b6e-afc4-5b3926c7525d",
+                  "mitigation": "- Mitarbeiter, der immer kontrolliert, dass alles vernünftig läuft\n- Tägliche Wartung/Kontrollen"
                 },
                 {
                   "status": "Open",
@@ -1198,7 +1206,8 @@
                   "type": "Elevation of privilege",
                   "description": "Ein nicht autorisierter Nutzer bekommt Managerrechte und bekommt somit Zugang zu den Informationen aus der Datenbank.",
                   "title": "Unberechtigter Zugriff",
-                  "threatId": "4363067d-a898-4d21-96e2-47c63b83944e"
+                  "threatId": "4363067d-a898-4d21-96e2-47c63b83944e",
+                  "mitigation": "- Zugang limitieren\n- Respect secuity guidelines\n- Nur die Rechte, die man braucht (Principle of least privilege)"
                 }
               ],
               "attrs": {
@@ -1235,7 +1244,8 @@
                   "type": "Spoofing",
                   "title": "Mitlesen der Daten",
                   "description": "Daten können abgefangen/abgelesen werden",
-                  "threatId": "e8926b37-3a4e-4210-9972-f543f6176378"
+                  "threatId": "e8926b37-3a4e-4210-9972-f543f6176378",
+                  "mitigation": "- Vernünftige Verschlüsselung\n- Zertifizierung"
                 }
               ],
               "attrs": {
