@@ -31,10 +31,10 @@
                   "status": "Open",
                   "severity": "High",
                   "modelType": "STRIDE",
-                  "type": "Information disclosure",
+                  "type": "Denial of service",
                   "title": "DDos",
                   "threatId": "492f66fd-2c26-43f3-8440-c965352a2822",
-                  "description": "Lahmlegung der Dienste",
+                  "description": "- High, da ein DDos Angriff immer möglich ist\n- Lahmlegung der Dienste",
                   "mitigation": "DDos Protection System"
                 },
                 {
@@ -42,7 +42,7 @@
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "type": "Information disclosure",
-                  "description": "- SQL-Injection etc. (OWASP TOP TEN)\n- Phishing mails",
+                  "description": "- Medium, da es von dem Code abhängt\n- SQL-Injection etc. (OWASP TOP TEN)\n- Phishing mails",
                   "title": "Daten können gestohlen werden",
                   "mitigation": "- Einhaltung der Owasp Top Ten\n- Sicherheitsschulungen/Awareness",
                   "threatId": "48c66492-39d1-43f2-b106-38119dd59744"
@@ -117,6 +117,10 @@
                 {
                   "x": 234,
                   "y": 67
+                },
+                {
+                  "x": 295,
+                  "y": 70
                 }
               ],
               "id": "59579bdb-6222-42df-bb89-de8f78bc5c79",
@@ -143,7 +147,8 @@
                   "type": "Spoofing",
                   "title": "Man in the Middle",
                   "description": "Daten werden abgelesen/abgefangen und können manipuliert werden",
-                  "threatId": "81759301-681b-48e0-8fc3-67ce3cfcea48"
+                  "threatId": "81759301-681b-48e0-8fc3-67ce3cfcea48",
+                  "mitigation": "- Verschlüsselung der Daten"
                 }
               ],
               "attrs": {
@@ -225,7 +230,12 @@
               "target": {
                 "id": "99ba0a84-f63c-44cf-b5db-a0af0ad853d4"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 402,
+                  "y": 193
+                }
+              ],
               "id": "1a108c90-ef2d-4eb4-84e0-271450b2d1b9",
               "labels": [
                 {
@@ -1093,7 +1103,7 @@
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "type": "Repudiation",
-                  "title": "Nicht alles geloggt",
+                  "title": "Nicht alles gelogt",
                   "description": "Nicht alles kann vernünftig geloggt werden und man kann bestimmte Aktionen nicht rückverfolgen",
                   "threatId": "fa2effaa-801a-4b6e-afc4-5b3926c7525d",
                   "mitigation": "- Mitarbeiter, der immer kontrolliert, dass alles vernünftig läuft\n- Tägliche Wartung/Kontrollen"
@@ -1367,7 +1377,8 @@
                 "id": "fcdb15d3-1583-4985-b4eb-e0298c16ce62"
               },
               "target": {
-                "id": "1681ac5f-f5a3-4b59-b933-2cb552882366"
+                "x": 253,
+                "y": 297
               },
               "vertices": [
                 {
