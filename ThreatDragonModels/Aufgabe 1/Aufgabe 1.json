@@ -36,8 +36,20 @@
                   "threatId": "492f66fd-2c26-43f3-8440-c965352a2822",
                   "description": "Lahmlegung der Dienste",
                   "mitigation": "DDos Protection System"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Information disclosure",
+                  "description": "- SQL-Injection etc. (OWASP TOP TEN)\n- Phishing mails",
+                  "title": "Daten können gestohlen werden",
+                  "mitigation": "- Einhaltung der Owasp Top Ten\n- Sicherheitsschulungen/Awareness",
+                  "threatId": "48c66492-39d1-43f2-b106-38119dd59744"
                 }
               ],
+              "isWebApplication": true,
+              "handlesGoodsOrServices": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
