@@ -1,0 +1,31 @@
+version: '3.1'
+services:
+#################
+# Threat Dragon #
+#################
+  threatdragon:
+    # Always use a specific version tag, as "latest" may be a development build
+    # Alternatively, you can use the "stable" tag, as that will always
+    # be the most recently released version
+    depends_on:
+      - reverseproxy
+    image: threatdragon/owasp-threat-dragon:v1.6.0
+    container_name: threatdragon
+    expose:
+      - "3000"
+    #ports:
+      #- "3000:3000"
+    volumes:
+      - "./config.env:/app/.env"
+#######################
+# Nginx Reverse Proxy #
+#######################
+  reverseproxy:
+    image: nginx:latest
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/devsecops.crt:/etc/nginx/devsecops.crt
+      - ./nginx/devsecops.key:/etc/nginx/devsecops.key
+    ports:
+      - "80:80"
+      - "443:443"
