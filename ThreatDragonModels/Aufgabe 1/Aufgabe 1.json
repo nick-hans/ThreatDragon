@@ -19,8 +19,8 @@
                 "height": 100
               },
               "position": {
-                "x": 82,
-                "y": 42
+                "x": 18,
+                "y": 41
               },
               "angle": 0,
               "id": "948e3ef5-db51-4f77-94f4-596b3f6d62c7",
@@ -45,8 +45,8 @@
                 "height": 80
               },
               "position": {
-                "x": 366,
-                "y": 47
+                "x": 329,
+                "y": 42
               },
               "angle": 0,
               "id": "bc427a5e-6db8-4a84-94dd-16db4b00a410",
@@ -337,29 +337,25 @@
               }
             },
             {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "size": {
-                "width": 100,
-                "height": 100
+                "width": 160,
+                "height": 80
               },
               "position": {
-                "x": 345,
-                "y": 449
+                "x": 328,
+                "y": 451
               },
               "angle": 0,
-              "id": "4854fa15-6dfe-4704-8c8a-97826527c861",
-              "z": 10,
+              "id": "4dbbd7d3-8d9e-4e55-ba3c-56a3c7d356fb",
+              "z": 13,
               "hasOpenThreats": false,
-              "outOfScope": false,
-              "handlesCardPayment": false,
-              "isWebApplication": false,
-              "handlesGoodsOrServices": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": ""
+                  "text": "Allsecure Mobile Phone\nOTT Service"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -377,15 +373,10 @@
                 "id": "99ba0a84-f63c-44cf-b5db-a0af0ad853d4"
               },
               "target": {
-                "id": "4854fa15-6dfe-4704-8c8a-97826527c861"
+                "id": "4dbbd7d3-8d9e-4e55-ba3c-56a3c7d356fb"
               },
-              "vertices": [
-                {
-                  "x": 406,
-                  "y": 414
-                }
-              ],
-              "id": "f5ee6dd5-1e61-4b9b-a49a-3dab5c54a3d4",
+              "vertices": [],
+              "id": "52ed2112-baaf-4490-b05a-df2e85825a58",
               "labels": [
                 {
                   "position": 0.5,
@@ -398,7 +389,7 @@
                   }
                 }
               ],
-              "z": 11,
+              "z": 14,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -417,34 +408,46 @@
               },
               "smooth": true,
               "source": {
-                "id": "4854fa15-6dfe-4704-8c8a-97826527c861"
+                "id": "4dbbd7d3-8d9e-4e55-ba3c-56a3c7d356fb"
               },
               "target": {
-                "x": 623,
-                "y": 514
+                "id": "948e3ef5-db51-4f77-94f4-596b3f6d62c7"
               },
-              "vertices": [],
-              "id": "58fd099e-12c4-493a-811b-267e4be49283",
+              "vertices": [
+                {
+                  "x": 87,
+                  "y": 439
+                }
+              ],
+              "id": "a40f96d2-4055-47cd-8ba1-f5f7f0424c3e",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 12,
-              "attrs": {}
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 596,
-          "width": 794
+          "width": 820
         }
       }
     ]
