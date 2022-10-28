@@ -1105,7 +1105,8 @@
                   "type": "Tampering",
                   "description": "Die logs können manipuliert werden und man hat keine keine vernünftige und wahrheitsgetreue Rückverfolgung",
                   "title": "Manipulation der Logs",
-                  "threatId": "b20a383b-1ddd-4de8-822c-77ab209435ed"
+                  "threatId": "b20a383b-1ddd-4de8-822c-77ab209435ed",
+                  "mitigation": "- Mitarbeiter, der immer kontrolliert, dass alles vernünftig läuft\n- Tägliche Wartung/Kontrollen"
                 }
               ],
               "attrs": {
