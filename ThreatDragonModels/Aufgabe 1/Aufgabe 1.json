@@ -343,8 +343,8 @@
                 "height": 100
               },
               "position": {
-                "x": 361,
-                "y": 421
+                "x": 345,
+                "y": 449
               },
               "angle": 0,
               "id": "4854fa15-6dfe-4704-8c8a-97826527c861",
@@ -359,18 +359,92 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 9"
+                  "text": ""
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "99ba0a84-f63c-44cf-b5db-a0af0ad853d4"
+              },
+              "target": {
+                "id": "4854fa15-6dfe-4704-8c8a-97826527c861"
+              },
+              "vertices": [
+                {
+                  "x": 406,
+                  "y": 414
+                }
+              ],
+              "id": "f5ee6dd5-1e61-4b9b-a49a-3dab5c54a3d4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "4854fa15-6dfe-4704-8c8a-97826527c861"
+              },
+              "target": {
+                "x": 623,
+                "y": 514
+              },
+              "vertices": [],
+              "id": "58fd099e-12c4-493a-811b-267e4be49283",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 11",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 591,
-          "width": 790
+          "height": 596,
+          "width": 794
         }
       }
     ]
