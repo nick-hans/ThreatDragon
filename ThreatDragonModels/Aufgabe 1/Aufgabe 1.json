@@ -9,7 +9,257 @@
         "title": "Datenflussdiagramm",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 82,
+                "y": 42
+              },
+              "angle": 0,
+              "id": "948e3ef5-db51-4f77-94f4-596b3f6d62c7",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Login System -\nWebapp -\nMobile App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 391,
+                "y": 52
+              },
+              "angle": 0,
+              "id": "bc427a5e-6db8-4a84-94dd-16db4b00a410",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "2-Faktor-Authentifizieru\nngsdienst"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "948e3ef5-db51-4f77-94f4-596b3f6d62c7"
+              },
+              "target": {
+                "id": "bc427a5e-6db8-4a84-94dd-16db4b00a410"
+              },
+              "vertices": [
+                {
+                  "x": 234,
+                  "y": 67
+                }
+              ],
+              "id": "59579bdb-6222-42df-bb89-de8f78bc5c79",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "1. Auth Challenge",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "bc427a5e-6db8-4a84-94dd-16db4b00a410"
+              },
+              "target": {
+                "id": "948e3ef5-db51-4f77-94f4-596b3f6d62c7"
+              },
+              "vertices": [
+                {
+                  "x": 325,
+                  "y": 115
+                },
+                {
+                  "x": 306,
+                  "y": 116
+                },
+                {
+                  "x": 248,
+                  "y": 117
+                },
+                {
+                  "x": 200,
+                  "y": 110
+                }
+              ],
+              "id": "56ad56fd-e4d3-4cf1-9b0b-c543e2e1e2f7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Erwartete OTT",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "bc427a5e-6db8-4a84-94dd-16db4b00a410"
+              },
+              "target": {
+                "x": 459,
+                "y": 288
+              },
+              "vertices": [],
+              "id": "1a108c90-ef2d-4eb4-84e0-271450b2d1b9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 407,
+                "y": 291
+              },
+              "angle": 0,
+              "id": "99ba0a84-f63c-44cf-b5db-a0af0ad853d4",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kundentelefon\nanbieter"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 202,
+                "y": 297
+              },
+              "angle": 0,
+              "id": "1681ac5f-f5a3-4b59-b933-2cb552882366",
+              "z": 7,
+              "hasOpenThreats": false,
+              "isEncrypted": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Telefonnummern-datenb\nank"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
