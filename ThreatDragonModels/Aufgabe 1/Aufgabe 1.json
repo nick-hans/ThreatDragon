@@ -1032,6 +1032,15 @@
                   "title": "Nicht alles geloggt",
                   "description": "Nicht alles kann vernünftig geloggt werden und man kann bestimmte Aktionen nicht rückverfolgen",
                   "threatId": "fa2effaa-801a-4b6e-afc4-5b3926c7525d"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "description": "Die logs können manipuliert werden und man hat keine keine vernünftige und wahrheitsgetreue Rückverfolgung",
+                  "title": "Manipulation der Logs",
+                  "threatId": "b20a383b-1ddd-4de8-822c-77ab209435ed"
                 }
               ],
               "attrs": {
